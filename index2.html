@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+     <title>类选择器</title>
+     <style type="text/css">
+          .one{font-size:18px;font-family:Arial,sans-serif;font-style:oblique}
+          .one b{font-weight:normal;color:red;font-size:0.5em}
+          .two{font-size:20px;line-height:100px;color:yellow;letter-spacing:20px;word-spacing:20px;text-indent:30px;text-transform:capitalize;text-decoration:underline;text-align:center}
+          #three{width:200px;height:300px;/*border-width:2px;border-color:red;border-style:dashed*/
+               /* border-left:2px dashed red */
+               border:2px dashed red
+          }
+
+          body{
+              background:url("test.jpg");
+              background-position:200px 150px;
+              background-repeat:no-repeat;
+              background-attachment:fixed;
+          }
+     </style>
+  </head>
+
+  <body>
+     <p class="one">我的名<b>字</b>叫kox，今年20岁</p>
+     <p class="two">my name is kox, twenty years old.</p>
+     <p id="three">带边框的p标签</p>
+  </body>
+</html>
